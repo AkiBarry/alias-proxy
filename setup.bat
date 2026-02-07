@@ -46,6 +46,7 @@ if %errorlevel% neq 0 (
     pause
     exit /b 1
 )
+docker update --restart unless-stopped alias-proxy
 
 echo.
 echo ========================================
