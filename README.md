@@ -15,4 +15,4 @@ This messes with your hosts file. Use at your own risk.
 Docker
 
 ## How to run
-Run setup.bat
+Run `setup.bat`
