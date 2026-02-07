@@ -13,3 +13,6 @@ This messes with your hosts file. Use at your own risk.
 
 ## Requirements
 Docker
+
+## How to run
+Run setup.bat
