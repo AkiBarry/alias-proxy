@@ -15,7 +15,7 @@ cd /d "%~dp0"
 
 :: Validate mapping keys and update hosts file
 echo [1/3] Updating hosts file...
-powershell -ExecutionPolicy Bypass -File "%~dp0update_hosts.ps1" -MappingFile "%~dp0mapping.json"
+powershell -ExecutionPolicy Bypass -File "%~dp0backend\update_hosts.ps1" -MappingFile "%~dp0mapping.json"
 if %errorlevel% neq 0 (
     echo ERROR: Hosts file update failed. Check mapping.json for invalid keys.
     pause
