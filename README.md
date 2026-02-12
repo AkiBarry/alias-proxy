@@ -13,6 +13,7 @@ This messes with your hosts file. Use at your own risk.
 
 ## Requirements
 Docker
+Python
 
 ## How to run
 Run `setup.bat`
