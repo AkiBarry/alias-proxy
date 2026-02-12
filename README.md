@@ -12,8 +12,8 @@ Comes with a mapping.json with some values already filled in.
 This messes with your hosts file. Use at your own risk.
 
 ## Requirements
-Docker
-Python
+- Docker
+- Python
 
 ## How to run
 Run `setup.bat`
